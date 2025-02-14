@@ -15,5 +15,5 @@ func New(sayer Sayer) *App {
 }
 
 func (a *App) Run(v string) {
-	a.sayer.Say(v)
+	a.sayer.Say("i say: " + v)
 }

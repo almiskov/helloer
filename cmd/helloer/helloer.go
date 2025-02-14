@@ -9,7 +9,7 @@ import (
 	"github.com/almiskov/helloer/internal/sayer"
 )
 
-const version = "0.0.0"
+const version = "0.0.1"
 
 func main() {
 	var say string
